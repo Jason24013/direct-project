@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "halo 3 remake", "halo 3 remake\halo 3 remake.vcxproj", "{4C1B633E-9B63-4760-8858-73735CBDE972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|ARM64 = Debug|ARM64
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|ARM64 = Release|ARM64
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Debug|ARM.ActiveCfg = Debug|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Debug|ARM.Build.0 = Debug|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Debug|ARM64.ActiveCfg = Debug|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Debug|ARM64.Build.0 = Debug|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Debug|x64.ActiveCfg = Debug|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Debug|x64.Build.0 = Debug|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Debug|x86.ActiveCfg = Debug|Win32
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Debug|x86.Build.0 = Debug|Win32
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Release|ARM.ActiveCfg = Release|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Release|ARM.Build.0 = Release|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Release|ARM64.ActiveCfg = Release|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Release|ARM64.Build.0 = Release|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Release|x64.ActiveCfg = Release|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Release|x64.Build.0 = Release|x64
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Release|x86.ActiveCfg = Release|Win32
+		{4C1B633E-9B63-4760-8858-73735CBDE972}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA09C1F0-FA15-4A02-94F1-F18B3173C5A0}
+	EndGlobalSection
+EndGlobal
