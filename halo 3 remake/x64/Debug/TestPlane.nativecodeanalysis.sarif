@@ -1,0 +1,384 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/Plane.h"
+                },
+                "region": {
+                  "startLine": 51,
+                  "startColumn": 19,
+                  "endLine": 51,
+                  "endColumn": 51
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Plane::MakeTesselatedTextured",
+                  "decoratedName": "?MakeTesselatedTextured@Plane@@SA?AVIndexedTriangleList@@VVertexLayout@Dvtx@@HH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'TestPlane::PSMaterialConstant::padding' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/TestPlane.h"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 2,
+                  "endLine": 19,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "TestPlane::PSMaterialConstant::{ctor}",
+                  "decoratedName": "??0PSMaterialConstant@TestPlane@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "TestPlane::PSMaterialConstant::padding"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'Dvtx::VertexLayout::ElementType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/Vertex.h"
+                },
+                "region": {
+                  "startLine": 118,
+                  "startColumn": 9,
+                  "endLine": 118,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Dvtx::VertexLayout::Resolve",
+                  "decoratedName": "??$Resolve@$00@VertexLayout@Dvtx@@QEBAAEBVElement@01@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31105.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF7FE829CC0 -il C:\\Users\\jason\\AppData\\Local\\Temp\\_CL_23fd31e9ast -typedil -f TestPlane.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131105 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Users\\jason\\OneDrive\\Desktop\\DirectXTK-main\\Inc -I C:\\Users\\jason\\source\\repos\\halo 3 remake\\assimp\\include -AI C:Program Files (x86)Microsoft Visual Studio 14.0VCvcpackages -AI C:Program Files (x86)Windows Kits10UnionMetadata -AI C:Program Files (x86)Windows Kits10ReferencesWindows.Foundation.FoundationContract1.0.0.0 -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_MBCS -DIS_DEBUG=true -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MTd -clrNoPureCRT -D_DEBUG -D_MT -GS -fpfast -fpcontract -D_M_FP_FAST -D_M_FP_CONTRACT -Zc:wchar_t -Zc:forScope -std:c++latest -permissive- -Fox64\\Debug\\TestPlane.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\jason\\source\\repos\\halo 3 remake\\halo 3 remake -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -MPdiagMutex 0000000000000438",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/chilitimer.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "b4df2f15b874e8b46a09dbe69bd83d29fb603b1da46c7d4de964b8e82d6042fa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/chilitimer.h"
+          },
+          "hashes": {
+            "sha-256": "6f777060328edea683ef290121f1b3c2c707c99493c7b5ce60e395645d722a20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/Plane.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "b5b056d5ab52425f4796a73e02df141f49a839260f093708c5deb36e73842c28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/TestPlane.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ef34942e24d1404fbe068816309441d1013c87b90b493141b8ed2cc8fd2ef3d7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/Vertex.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "9b2985047571ea9863fa543a22889e1e1af4d5f219b0d0b65ab6fd354dad5ee1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/testplane.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "73eed45c4c8e149092ea24ea957e3c100d2684fdb700ff1afe28896b3629728c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/drawable.h"
+          },
+          "hashes": {
+            "sha-256": "8d88fc2c3330adf4925896d3b23765fbc9b338d2cf43ec58ace17a0718d2b481"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "774166cc45380d00bd11bacdc2107c96973ce9f9248606b0a30c68d74322a02b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/chiliwin.h"
+          },
+          "hashes": {
+            "sha-256": "e093427533b0dd3f61b0d67f5e5c25bb0b70e72fa5dafd632e14351f22570d5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/chiliexeception.h"
+          },
+          "hashes": {
+            "sha-256": "9f4b2e2bc30e97bdc62c17d2b6c853e1ba7797ed9f078ccd016147ed0ea0fab0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/dxgiinfomanager.h"
+          },
+          "hashes": {
+            "sha-256": "281ec14eb8c32e7fe0b3b7148f8e9691974ff54d0cd75234b0aec60c35c67f60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/conditionalnoexcept.h"
+          },
+          "hashes": {
+            "sha-256": "0e126eee1c392e396da5dfb13e24f403a539cb676e4ad2bafa983011e9dbe273"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/color.h"
+          },
+          "hashes": {
+            "sha-256": "1237bf629cbf69734a1cfa1f5fb115896814b5fe7d5391239269820e4abed4b5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/indexedtrianglelist.h"
+          },
+          "hashes": {
+            "sha-256": "c74071cdef3fcd4678370fd92732330910de1947efdf3abf8db5ec302ea5b119"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/chilimath.h"
+          },
+          "hashes": {
+            "sha-256": "281a85a899acf7d564c703e8711c72c6694e0b9b6a07ec085bbd331105d9eb08"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/bindablebase.h"
+          },
+          "hashes": {
+            "sha-256": "a321f4ed4c142bde5c50ed1ba4e721671fc707b1f9898e0a3e2599260f6f4712"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/constantbuffers.h"
+          },
+          "hashes": {
+            "sha-256": "f4dac86a78e5d79a1c6a28e541c686cca7311949a2b5498314fd8e45cf52a128"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/bindable.h"
+          },
+          "hashes": {
+            "sha-256": "2e034d0c0b73aaf69ef92b3a7e0b2553a1c74fcd1038c5fd4002f1d1cccb8855"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/graphicsthrowmacros.h"
+          },
+          "hashes": {
+            "sha-256": "85d2657bd1a4ac916ff674029e566f0da8d1818c30b71c1103d897f16ce23dd4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/bindablecodex.h"
+          },
+          "hashes": {
+            "sha-256": "9d4e569574ca85d3ff48ba3389d8c58cbd84040e498b271a60673a6ca85beaa6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/indexbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "a64375bfec538669bb7e6f976746af345a30c337ac713337fd3c4d0233aa88ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/inputlayout.h"
+          },
+          "hashes": {
+            "sha-256": "bde7f87018de9c8c791dd7b0da270664da928429ac1743cf14df718b16304149"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/pixelshader.h"
+          },
+          "hashes": {
+            "sha-256": "3485103acbcc79995a65ca45f8caf9cb1f5cec3ad4e83edad83853c7efab7c4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/topology.h"
+          },
+          "hashes": {
+            "sha-256": "daba8ffffef02f78eee5c3031df1dfa4eaf8c34e74e5456bb52b9b743a479aa3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/transformcbuf.h"
+          },
+          "hashes": {
+            "sha-256": "511fd452635db0956e69abd113ae35319734cac1d1f08e6590f09e7855200598"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/vertexbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "2117d71f614a8b4d8d579709430a20f4dc9c1568bd957df2c4b94bd0157c2b81"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/vertexshader.h"
+          },
+          "hashes": {
+            "sha-256": "2e4e61f32af2f8f65f99a15a3ba3255f72c4718ee0d8adbc8d62f4023554dd9c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/texture.h"
+          },
+          "hashes": {
+            "sha-256": "b21e5225a045bf99d3e365ec1160edc118cb2849905d05081f8808562003e04f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/sampler.h"
+          },
+          "hashes": {
+            "sha-256": "acc4dc2a6d428070c8c86d0bf4f566b22584bfab9b5994aaf1095ba02fb9f0c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/transformcbufdoubleboi.h"
+          },
+          "hashes": {
+            "sha-256": "44ef96df755f16524039fbe85cfde1be8b6c64071141738fa5691e8d1b3eb936"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/imgui-1.87/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "0696072f3b6c5d8d3097e5f899a6b35e48a5679e726ab4a669cf4b703d022d98"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/imgui-1.87/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "5177e7ce55d6cd63e30b6b9d7f97d615ec75839ddb04aad954adc61365d79dd7"
+          }
+        }
+      ]
+    }
+  ]
+}

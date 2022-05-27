@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::{ctor}</FUNCTION>
+    <DECORATED>??0Surface@@QEAA@II@Z</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::Clear</FUNCTION>
+    <DECORATED>?Clear@Surface@@QEAAXVColor@1@@Z</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::PutPixel</FUNCTION>
+    <DECORATED>?PutPixel@Surface@@QEAAXIIVColor@1@@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::PutPixel</FUNCTION>
+    <DECORATED>?PutPixel@Surface@@QEAAXIIVColor@1@@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::GetPixel</FUNCTION>
+    <DECORATED>?GetPixel@Surface@@QEBA?AVColor@1@II@Z</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::GetPixel</FUNCTION>
+    <DECORATED>?GetPixel@Surface@@QEBA?AVColor@1@II@Z</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::FromFile</FUNCTION>
+    <DECORATED>?FromFile@Surface@@SA?AV1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::FromFile</FUNCTION>
+    <DECORATED>?FromFile@Surface@@SA?AV1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::FromFile</FUNCTION>
+    <DECORATED>?FromFile@Surface@@SA?AV1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'pImageCodecInfo'.</DESCRIPTION>
+    <FUNCTION>Surface::Save::&lt;lambda_1&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_1&gt;@?1??Save@Surface@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@QEBAXPEB_WPEAU_GUID@@@Z</DECORATED>
+    <FUNCLINE>192</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>160</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pImageCodecInfo' is an array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'pImageCodecInfo==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'pImageCodecInfo' is an Input to 'Gdiplus::GetImageEncoders' (declared at c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\gdiplusimagecodec.h:56)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;num')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'j' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'j&lt;num')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'j' is an Input to 'wcscmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\corecrt_wstring.h:108)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'pImageCodecInfo', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>220</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::Copy</FUNCTION>
+    <DECORATED>?Copy@Surface@@QEAAXAEBV1@@Z</DECORATED>
+    <FUNCLINE>216</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

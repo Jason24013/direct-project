@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Plane.h</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Plane::MakeTesselatedTextured</FUNCTION>
+    <DECORATED>?MakeTesselatedTextured@Plane@@SA?AVIndexedTriangleList@@VVertexLayout@Dvtx@@HH@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>TestPlane.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TestPlane::PSMaterialConstant::padding' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TestPlane::PSMaterialConstant::{ctor}</FUNCTION>
+    <DECORATED>??0PSMaterialConstant@TestPlane@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TestPlane::PSMaterialConstant::padding</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Vertex.h</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'Dvtx::VertexLayout::ElementType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Dvtx::VertexLayout::Resolve</FUNCTION>
+    <DECORATED>??$Resolve@$00@VertexLayout@Dvtx@@QEBAAEBVElement@01@XZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

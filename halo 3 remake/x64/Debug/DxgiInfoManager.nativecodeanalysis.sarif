@@ -1,0 +1,286 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Using uninitialized memory 'messageLength'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 3,
+                  "endLine": 53,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DxgiInfoManager::GetMessages",
+                  "decoratedName": "?GetMessages@DxgiInfoManager@@QEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "'messageLength' is not initialized"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'messageLength' is an Input to 'IDXGIInfoQueue::GetMessageA' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22000.0\\um\\dxgidebug.h:194)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+                          },
+                          "region": {
+                            "startLine": 53,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'messageLength' is used, but may not have been initialized"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31105.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF7FE829CC0 -il C:\\Users\\jason\\AppData\\Local\\Temp\\_CL_e75c4e6dast -typedil -f DxgiInfoManager.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131105 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Users\\jason\\OneDrive\\Desktop\\DirectXTK-main\\Inc -I C:\\Users\\jason\\source\\repos\\halo 3 remake\\assimp\\include -AI C:Program Files (x86)Microsoft Visual Studio 14.0VCvcpackages -AI C:Program Files (x86)Windows Kits10UnionMetadata -AI C:Program Files (x86)Windows Kits10ReferencesWindows.Foundation.FoundationContract1.0.0.0 -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_MBCS -DIS_DEBUG=true -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MTd -clrNoPureCRT -D_DEBUG -D_MT -GS -fpfast -fpcontract -D_M_FP_FAST -D_M_FP_CONTRACT -Zc:wchar_t -Zc:forScope -std:c++latest -permissive- -Fox64\\Debug\\DxgiInfoManager.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\jason\\source\\repos\\halo 3 remake\\halo 3 remake -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22000.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -MPdiagMutex 0000000000000438",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/jason/source/repos/halo 3 remake/halo 3 remake/DxgiInfoManager.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "dec84ee28ffcf83d0bf6dc2a8b314ead3ca7edee8bd1cea7ab4b0b175e181567"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/dxgiinfomanager.h"
+          },
+          "hashes": {
+            "sha-256": "281ec14eb8c32e7fe0b3b7148f8e9691974ff54d0cd75234b0aec60c35c67f60"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/chiliwin.h"
+          },
+          "hashes": {
+            "sha-256": "e093427533b0dd3f61b0d67f5e5c25bb0b70e72fa5dafd632e14351f22570d5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/window.h"
+          },
+          "hashes": {
+            "sha-256": "7d33c590e00678f87be14f0ca2034816b0b06b4aa3c6e46b3895e94aecd37dc9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/chiliexeception.h"
+          },
+          "hashes": {
+            "sha-256": "9f4b2e2bc30e97bdc62c17d2b6c853e1ba7797ed9f078ccd016147ed0ea0fab0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/keyboard.h"
+          },
+          "hashes": {
+            "sha-256": "de13b3cbd798f4444aa803c8b5425555da3140ce335c7b2217cc1921c39d6973"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/mouse.h"
+          },
+          "hashes": {
+            "sha-256": "e2ab89600f60f31b33071552db3a3b726ab045081b421f1f56aa58f79a49e417"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/graphics.h"
+          },
+          "hashes": {
+            "sha-256": "774166cc45380d00bd11bacdc2107c96973ce9f9248606b0a30c68d74322a02b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/conditionalnoexcept.h"
+          },
+          "hashes": {
+            "sha-256": "0e126eee1c392e396da5dfb13e24f403a539cb676e4ad2bafa983011e9dbe273"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/graphicsthrowmacros.h"
+          },
+          "hashes": {
+            "sha-256": "85d2657bd1a4ac916ff674029e566f0da8d1818c30b71c1103d897f16ce23dd4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/jason/source/repos/halo 3 remake/halo 3 remake/windowsthrowmacros.h"
+          },
+          "hashes": {
+            "sha-256": "068557ef2c77f55ae696d5e0c5ab8edd6a157e200ca88360077cb8af39e29ee8"
+          }
+        }
+      ]
+    }
+  ]
+}

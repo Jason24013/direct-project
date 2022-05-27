@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\x64\Debug\halo 3 remake.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongPSNormalMap.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongPSNormalMapObject.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongPSNotex.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongPSSpec.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongPSSpecMap.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongPSSpecNormalMap.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongVSNormalMap.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongVSNotex.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\SolidPS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\SolidVS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\PhongVS.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

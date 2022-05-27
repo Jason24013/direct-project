@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Mouse.h</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Mouse::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Mouse::{ctor}</FUNCTION>
+    <DECORATED>??0Mouse@@QEAA@XZ</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Mouse::x</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Mouse.h</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Mouse::y' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Mouse::{ctor}</FUNCTION>
+    <DECORATED>??0Mouse@@QEAA@XZ</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Mouse::y</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Window.cpp</FILENAME>
+      <LINE>433</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'size'.</DESCRIPTION>
+    <FUNCTION>Window::HandleMsg</FUNCTION>
+    <DECORATED>?HandleMsg@Window@@AEAA_JPEAUHWND__@@I_K_J@Z</DECORATED>
+    <FUNCLINE>244</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'size' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>434</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'size' is an In/Out argument to 'GetRawInputData' (declared at c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winuser.h:15122)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>433</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'size' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

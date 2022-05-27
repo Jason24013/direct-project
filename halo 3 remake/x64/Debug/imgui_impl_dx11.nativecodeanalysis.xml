@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+      <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+      <LINE>290</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'pTexture' could be '0'.</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX11_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX11_CreateFontsTexture@@YAXXZ</DECORATED>
+    <FUNCLINE>254</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>260</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>264</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pTexture' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>288</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>46</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pTexture' should not be NULL, because this is not consistent with the SAL annotation on 'ID3D11Device::CreateShaderResourceView'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

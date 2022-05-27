@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>7774</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>33010</DEFECTCODE>
+    <DESCRIPTION>Unchecked lower bound for enum source used as index..</DESCRIPTION>
+    <FUNCTION>GetInputSourceName</FUNCTION>
+    <DECORATED>?GetInputSourceName@@YAPEBDW4ImGuiInputSource@@@Z</DECORATED>
+    <FUNCLINE>7770</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7770</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7772</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7772</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>Branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Branching based on condition '1'. 'True' branch is taken</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>Combination</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Branching based on condition '0 &lt;= source'. 'False' branch is taken
+Enum value 'source' is checked for upper bound.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>Branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Branching based on condition '0'. 'False' branch is taken</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7774</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>11973</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'_Param_(2)' could be '0'.</DESCRIPTION>
+    <FUNCTION>SetPlatformImeDataFn_DefaultImpl</FUNCTION>
+    <DECORATED>?SetPlatformImeDataFn_DefaultImpl@@YAXPEAUImGuiViewport@@PEAUImGuiPlatformImeData@@@Z</DECORATED>
+    <FUNCLINE>11962</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>11965</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>11967</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>11970</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>11973</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

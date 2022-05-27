@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Graphics.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Graphics::projection' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Graphics::{ctor}</FUNCTION>
+    <DECORATED>??0Graphics@@QEAA@PEAUHWND__@@HH@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Graphics::projection</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Graphics.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Graphics::camera' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Graphics::{ctor}</FUNCTION>
+    <DECORATED>??0Graphics@@QEAA@PEAUHWND__@@HH@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Graphics::camera</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>SolidSphere.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SolidSphere::{ctor}::PSColorConstant::padding' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SolidSphere::{ctor}::PSColorConstant::{ctor}</FUNCTION>
+    <DECORATED>??0PSColorConstant@?1???0SolidSphere@@QEAA@AEAVGraphics@@M@Z@QEAA@XZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SolidSphere::{ctor}::PSColorConstant::padding</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Vertex.h</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'Dvtx::VertexLayout::ElementType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Dvtx::VertexLayout::Resolve</FUNCTION>
+    <DECORATED>??$Resolve@$00@VertexLayout@Dvtx@@QEBAAEBVElement@01@XZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

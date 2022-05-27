@@ -1,0 +1,1256 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\assimp\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\assimp\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\assimp\include\assimp\</FILEPATH>
+      <FILENAME>light.h</FILENAME>
+      <LINE>241</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiLightSourceType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiLight::{ctor}</FUNCTION>
+    <DECORATED>??0aiLight@@QEAA@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\assimp\include\assimp\</FILEPATH>
+      <FILENAME>material.h</FILENAME>
+      <LINE>664</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiPropertyTypeInfo' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterialProperty::{ctor}</FUNCTION>
+    <DECORATED>??0aiMaterialProperty@@QEAA@XZ</DECORATED>
+    <FUNCLINE>660</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\assimp\include\assimp\</FILEPATH>
+      <FILENAME>material.h</FILENAME>
+      <LINE>1542</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiReturn' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiGetMaterialFloat</FUNCTION>
+    <DECORATED>aiGetMaterialFloat</DECORATED>
+    <FUNCLINE>1537</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\assimp\include\assimp\</FILEPATH>
+      <FILENAME>material.inl</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiTextureType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterial::GetTexture</FUNCTION>
+    <DECORATED>?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\assimp\include\assimp\</FILEPATH>
+      <FILENAME>anim.h</FILENAME>
+      <LINE>325</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiAnimBehaviour' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiNodeAnim::{ctor}</FUNCTION>
+    <DECORATED>??0aiNodeAnim@@QEAA@XZ</DECORATED>
+    <FUNCLINE>318</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\assimp\include\assimp\</FILEPATH>
+      <FILENAME>metadata.h</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'aiMetadataType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>aiMetadataEntry::{ctor}</FUNCTION>
+    <DECORATED>??0aiMetadataEntry@@QEAA@XZ</DECORATED>
+    <FUNCLINE>92</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Animation.h</FILENAME>
+      <LINE>88</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Animation::Bone::offset' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Animation::Bone::{ctor}</FUNCTION>
+    <DECORATED>??0Bone@Animation@@QEAA@XZ</DECORATED>
+    <FUNCLINE>88</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Animation::Bone::offset</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>DxgiInfoManager.cpp</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'messageLength'.</DESCRIPTION>
+    <FUNCTION>DxgiInfoManager::GetMessages</FUNCTION>
+    <DECORATED>?GetMessages@DxgiInfoManager@@QEBA?AV?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@XZ</DECORATED>
+    <FUNCLINE>44</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>DxgiInfoManager.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>DxgiInfoManager.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>DxgiInfoManager.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>DxgiInfoManager.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>DxgiInfoManager.cpp</FILENAME>
+        <LINE>50</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>DxgiInfoManager.cpp</FILENAME>
+        <LINE>51</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'messageLength' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>DxgiInfoManager.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'messageLength' is an Input to 'IDXGIInfoQueue::GetMessageA' (declared at c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\dxgidebug.h:194)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>DxgiInfoManager.cpp</FILENAME>
+        <LINE>53</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'messageLength' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Graphics.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Graphics::projection' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Graphics::{ctor}</FUNCTION>
+    <DECORATED>??0Graphics@@QEAA@PEAUHWND__@@HH@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Graphics::projection</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+      <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+      <LINE>290</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'pTexture' could be '0'.</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX11_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX11_CreateFontsTexture@@YAXXZ</DECORATED>
+    <FUNCLINE>254</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>257</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>258</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>259</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>260</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>264</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>265</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>266</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>267</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>268</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>269</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>270</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>271</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>272</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>273</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>274</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>276</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>277</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>278</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>279</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>280</LINE>
+        <COLUMN>37</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>281</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pTexture' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>284</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>285</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>286</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>287</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>288</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>289</LINE>
+        <COLUMN>42</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\backends\</FILEPATH>
+        <FILENAME>imgui_impl_dx11.cpp</FILENAME>
+        <LINE>290</LINE>
+        <COLUMN>46</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pTexture' should not be NULL, because this is not consistent with the SAL annotation on 'ID3D11Device::CreateShaderResourceView'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>7774</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>33010</DEFECTCODE>
+    <DESCRIPTION>Unchecked lower bound for enum source used as index..</DESCRIPTION>
+    <FUNCTION>GetInputSourceName</FUNCTION>
+    <DECORATED>?GetInputSourceName@@YAPEBDW4ImGuiInputSource@@@Z</DECORATED>
+    <FUNCLINE>7770</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7770</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7772</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7772</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>Branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Branching based on condition '1'. 'True' branch is taken</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>Combination</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Branching based on condition '0 &lt;= source'. 'False' branch is taken
+Enum value 'source' is checked for upper bound.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>Branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Branching based on condition '0'. 'False' branch is taken</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7773</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>7774</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>11973</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'_Param_(2)' could be '0'.</DESCRIPTION>
+    <FUNCTION>SetPlatformImeDataFn_DefaultImpl</FUNCTION>
+    <DECORATED>?SetPlatformImeDataFn_DefaultImpl@@YAXPEAUImGuiViewport@@PEAUImGuiPlatformImeData@@@Z</DECORATED>
+    <FUNCLINE>11962</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>11965</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>11967</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>11970</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>11973</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\imgui-1.87\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2111</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>Unannotated fallthrough between switch labels (es.78).</DESCRIPTION>
+    <FUNCTION>stbtt__run_charstring</FUNCTION>
+    <DECORATED>?stbtt__run_charstring@@YAHPEBUstbtt_fontinfo@@HPEAUstbtt__csctx@@@Z</DECORATED>
+    <FUNCLINE>1978</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>39</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Mesh::transform' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Mesh::{ctor}</FUNCTION>
+    <DECORATED>??0Mesh@@QEAA@AEAVGraphics@@V?$vector@V?$shared_ptr@VBindable@Bind@@@std@@V?$allocator@V?$shared_ptr@VBindable@Bind@@@std@@@2@@std@@@Z</DECORATED>
+    <FUNCLINE>39</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Mesh::transform</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>444</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Model::ParseMesh::PSMaterialConstantDiffnorm::padding' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Model::ParseMesh::PSMaterialConstantDiffnorm::{ctor}</FUNCTION>
+    <DECORATED>??0PSMaterialConstantDiffnorm@?CD@??ParseMesh@Model@@CA?AV?$unique_ptr@VMesh@@U?$default_delete@VMesh@@@std@@@std@@AEAVGraphics@@AEBUaiMesh@@PEBQEBUaiMaterial@@AEBVpath@filesystem@4@M@Z@QEAA@XZ</DECORATED>
+    <FUNCLINE>444</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Model::ParseMesh::PSMaterialConstantDiffnorm::padding</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.h</FILENAME>
+      <LINE>66</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Node::PSMaterialConstantNotex::padding' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Node::PSMaterialConstantNotex::{ctor}</FUNCTION>
+    <DECORATED>??0PSMaterialConstantNotex@Node@@QEAA@XZ</DECORATED>
+    <FUNCLINE>66</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Node::PSMaterialConstantNotex::padding</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>364</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Model::ParseMesh</FUNCTION>
+    <DECORATED>?ParseMesh@Model@@CA?AV?$unique_ptr@VMesh@@U?$default_delete@VMesh@@@std@@@std@@AEAVGraphics@@AEBUaiMesh@@PEBQEBUaiMaterial@@AEBVpath@filesystem@3@M@Z</DECORATED>
+    <FUNCLINE>272</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>416</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Model::ParseMesh</FUNCTION>
+    <DECORATED>?ParseMesh@Model@@CA?AV?$unique_ptr@VMesh@@U?$default_delete@VMesh@@@std@@@std@@AEAVGraphics@@AEBUaiMesh@@PEBQEBUaiMaterial@@AEBVpath@filesystem@3@M@Z</DECORATED>
+    <FUNCLINE>272</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>470</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Model::ParseMesh</FUNCTION>
+    <DECORATED>?ParseMesh@Model@@CA?AV?$unique_ptr@VMesh@@U?$default_delete@VMesh@@@std@@@std@@AEAVGraphics@@AEBUaiMesh@@PEBQEBUaiMaterial@@AEBVpath@filesystem@3@M@Z</DECORATED>
+    <FUNCLINE>272</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>525</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Model::ParseMesh</FUNCTION>
+    <DECORATED>?ParseMesh@Model@@CA?AV?$unique_ptr@VMesh@@U?$default_delete@VMesh@@@std@@@std@@AEAVGraphics@@AEBUaiMesh@@PEBQEBUaiMaterial@@AEBVpath@filesystem@3@M@Z</DECORATED>
+    <FUNCLINE>272</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>576</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Model::ParseMesh</FUNCTION>
+    <DECORATED>?ParseMesh@Model@@CA?AV?$unique_ptr@VMesh@@U?$default_delete@VMesh@@@std@@@std@@AEAVGraphics@@AEBUaiMesh@@PEBQEBUaiMaterial@@AEBVpath@filesystem@3@M@Z</DECORATED>
+    <FUNCLINE>272</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>743</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Animation::m_GlobalInverseTransform' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Animation::{ctor}</FUNCTION>
+    <DECORATED>??0Animation@@QEAA@XZ</DECORATED>
+    <FUNCLINE>743</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Animation::m_GlobalInverseTransform</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Model.cpp</FILENAME>
+      <LINE>216</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ModelWindow::pSelectedNode' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ModelWindow::{ctor}</FUNCTION>
+    <DECORATED>??0ModelWindow@@QEAA@XZ</DECORATED>
+    <FUNCLINE>216</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ModelWindow::pSelectedNode</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Vertex.h</FILENAME>
+      <LINE>151</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'Dvtx::VertexLayout::ElementType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Dvtx::Vertex::SetAttributeByIndex</FUNCTION>
+    <DECORATED>??$SetAttributeByIndex@UXMFLOAT3@DirectX@@@Vertex@Dvtx@@QEAAX_K$$QEAUXMFLOAT3@DirectX@@@Z</DECORATED>
+    <FUNCLINE>147</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>SolidSphere.cpp</FILENAME>
+      <LINE>29</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'SolidSphere::{ctor}::PSColorConstant::padding' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>SolidSphere::{ctor}::PSColorConstant::{ctor}</FUNCTION>
+    <DECORATED>??0PSColorConstant@?1???0SolidSphere@@QEAA@AEAVGraphics@@M@Z@QEAA@XZ</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>SolidSphere::{ctor}::PSColorConstant::padding</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Vertex.h</FILENAME>
+      <LINE>118</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'Dvtx::VertexLayout::ElementType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Dvtx::VertexLayout::Resolve</FUNCTION>
+    <DECORATED>??$Resolve@$00@VertexLayout@Dvtx@@QEBAAEBVElement@01@XZ</DECORATED>
+    <FUNCLINE>114</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>36</LINE>
+      <COLUMN>40</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::{ctor}</FUNCTION>
+    <DECORATED>??0Surface@@QEAA@II@Z</DECORATED>
+    <FUNCLINE>34</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::Clear</FUNCTION>
+    <DECORATED>?Clear@Surface@@QEAAXVColor@1@@Z</DECORATED>
+    <FUNCLINE>60</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::PutPixel</FUNCTION>
+    <DECORATED>?PutPixel@Surface@@QEAAXIIVColor@1@@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>71</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::PutPixel</FUNCTION>
+    <DECORATED>?PutPixel@Surface@@QEAAXIIVColor@1@@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::GetPixel</FUNCTION>
+    <DECORATED>?GetPixel@Surface@@QEBA?AVColor@1@II@Z</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>80</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::GetPixel</FUNCTION>
+    <DECORATED>?GetPixel@Surface@@QEBA?AVColor@1@II@Z</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>130</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::FromFile</FUNCTION>
+    <DECORATED>?FromFile@Surface@@SA?AV1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::FromFile</FUNCTION>
+    <DECORATED>?FromFile@Surface@@SA?AV1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>138</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::FromFile</FUNCTION>
+    <DECORATED>?FromFile@Surface@@SA?AV1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>108</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>179</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'pImageCodecInfo'.</DESCRIPTION>
+    <FUNCTION>Surface::Save::&lt;lambda_1&gt;::()</FUNCTION>
+    <DECORATED>??R&lt;lambda_1&gt;@?1??Save@Surface@@QEBAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@QEBAXPEB_WPEAU_GUID@@@Z</DECORATED>
+    <FUNCLINE>192</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>154</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>155</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>157</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>159</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>160</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'pImageCodecInfo' is an array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>168</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'pImageCodecInfo==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'pImageCodecInfo' is an Input to 'Gdiplus::GetImageEncoders' (declared at c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\gdiplusimagecodec.h:56)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;num')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>28</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'j' may equal 1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>177</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'j&lt;num')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'j' is an Input to 'wcscmp' (declared at c:\program files (x86)\windows kits\10\include\10.0.22000.0\ucrt\corecrt_wstring.h:108)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Surface.cpp</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>51</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'pImageCodecInfo', (outside its readable range)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Surface.cpp</FILENAME>
+      <LINE>220</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Surface::Copy</FUNCTION>
+    <DECORATED>?Copy@Surface@@QEAAXAEBV1@@Z</DECORATED>
+    <FUNCLINE>216</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>TestCube.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TestCube::PSMaterialConstant::padding' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TestCube::PSMaterialConstant::{ctor}</FUNCTION>
+    <DECORATED>??0PSMaterialConstant@TestCube@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TestCube::PSMaterialConstant::padding</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Plane.h</FILENAME>
+      <LINE>51</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>Plane::MakeTesselatedTextured</FUNCTION>
+    <DECORATED>?MakeTesselatedTextured@Plane@@SA?AVIndexedTriangleList@@VVertexLayout@Dvtx@@HH@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>TestPlane.h</FILENAME>
+      <LINE>19</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'TestPlane::PSMaterialConstant::padding' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>TestPlane::PSMaterialConstant::{ctor}</FUNCTION>
+    <DECORATED>??0PSMaterialConstant@TestPlane@@QEAA@XZ</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>TestPlane::PSMaterialConstant::padding</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Vertex.cpp</FILENAME>
+      <LINE>10</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'Dvtx::VertexLayout::ElementType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>Dvtx::VertexLayout::Append</FUNCTION>
+    <DECORATED>?Append@VertexLayout@Dvtx@@QEAAAEAV12@W4ElementType@12@@Z</DECORATED>
+    <FUNCLINE>10</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>VertexBuffer.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Bind::VertexBuffer::stride' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Bind::VertexBuffer::{ctor}</FUNCTION>
+    <DECORATED>??0VertexBuffer@Bind@@QEAA@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Bind::VertexBuffer::stride</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Mouse.h</FILENAME>
+      <LINE>89</LINE>
+      <COLUMN>1</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Mouse::x' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Mouse::{ctor}</FUNCTION>
+    <DECORATED>??0Mouse@@QEAA@XZ</DECORATED>
+    <FUNCLINE>89</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Mouse::x</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>Window.cpp</FILENAME>
+      <LINE>433</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'size'.</DESCRIPTION>
+    <FUNCTION>Window::HandleMsg</FUNCTION>
+    <DECORATED>?HandleMsg@Window@@AEAA_JPEAUHWND__@@I_K_J@Z</DECORATED>
+    <FUNCLINE>244</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>246</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>250</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>252</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>421</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>423</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>427</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'size' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>434</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'size' is an In/Out argument to 'GetRawInputData' (declared at c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winuser.h:15122)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+        <FILENAME>Window.cpp</FILENAME>
+        <LINE>433</LINE>
+        <COLUMN>3</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'size' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\</FILEPATH>
+      <FILENAME>WinMain.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.22000.0\um\winbase.h(1006). </DESCRIPTION>
+    <FUNCTION>WinMain</FUNCTION>
+    <DECORATED>WinMain</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

@@ -1,0 +1,8 @@
+// Hint files help the Visual Studio IDE interpret Visual C++ identifiers
+// such as names of functions and macros.
+// For more information see https://go.microsoft.com/fwlink/?linkid=865984
+#define INFOMAN(gfx)
+#define INFOMAN(gfx) HRESULT hr; DxgiInfoManager& infoManager = GetInfoManager((gfx))
+#define INFOMAN(Gfx)
+#define INFOMAN(Gfx) HRESULT hr; DxgiInfoManager& infoManager = GetInfoManager((Gfx))
+#define noxnd noexcept(!IS_DEBUG)

@@ -1,0 +1,7 @@
+﻿  Model.cpp
+C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\VertexBuffer.h(12,34): warning C4584: 'Bind::VertexBuffer': base-class 'Bind::Bindable' is already a base-class of 'Bind::inherited'
+C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\Bindable.h(7): message : see declaration of 'Bind::Bindable'
+C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\VertexBuffer.h(8): message : see declaration of 'Bind::inherited'
+C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\Model.cpp(774,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\jason\source\repos\halo 3 remake\halo 3 remake\Model.cpp(782,21): warning C4018: '<': signed/unsigned mismatch
+  halo 3 remake.vcxproj -> C:\Users\jason\source\repos\halo 3 remake\x64\Debug\halo 3 remake.exe
